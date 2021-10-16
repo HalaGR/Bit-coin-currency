@@ -18,7 +18,7 @@ def main():
         # keep cheking if bitcoin price changed
         if app.config['latest_price'] != get_latest_bitcoin_price(): # update argumanet if changed
             app.config['latest_price'] = get_latest_bitcoin_price()
-        output = "The current Price of Bitcoin is: " + app.config['latest_price'] + " US $ <br/><br/>"
+        output = "The current Price of BitCoin is: " + app.config['latest_price'] + " US $ <br/><br/>"
         # if first time cheking return avg as cuurent price
         if app.config['counter'] == 0 : 
             output += "BitCoin Average price for the last 10 minutes: " + app.config['latest_price'] + " US $"
