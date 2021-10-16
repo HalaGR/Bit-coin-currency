@@ -33,7 +33,7 @@ def main():
             if(app.config['counter'] == 10):
                 output += "BitCoin Average price for the last 10 minutes: ",(sum(mesurmentsQueue)/len(mesurmentsQueue))
                 counter=0
-        time.sleep(60)
+        time.sleep(1)
         return output
 
 # get the latest bitcoin price from URL 
