@@ -2,17 +2,17 @@
 ## Description 
 ### Web App to output the current BitCoine price and the average price of the last 10 minutes.
 ## To run python app do in cmd:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 Or use
-'''
+```
 pip3 install -r requirements.txt
-'''
+```
 and then do
-'''
+```
 py bitcoin-app.py
-'''
+```
 ## to Build the image and run it do:
 '''
 docker build -t bitcoin-docker:latest .
