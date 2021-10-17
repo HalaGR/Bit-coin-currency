@@ -12,7 +12,7 @@ docker run -d -p 5000:5000 bitcoin-docker
 '''
 
 ### the web app sude look like this:
-
+![Screenshot (13)](https://user-images.githubusercontent.com/91056497/137638557-e17d6f8c-23d2-447f-91e3-a605341e5904.png)
 
 ## Jenkinsfile
 ### Building the jenkinsfile will build the app image and push it to the DockerHub account that's specified in the Jenkinsfile
