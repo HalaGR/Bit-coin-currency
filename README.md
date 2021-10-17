@@ -17,5 +17,6 @@ docker run -d -p 5000:5000 bitcoin-docker
 ## Jenkinsfile
 ### Building the jenkinsfile will build the app image and push it to the DockerHub account that's specified in the Jenkinsfile
 ### after building jenkins file:
+![Screenshot (12)](https://user-images.githubusercontent.com/91056497/137638415-64bb2e75-6bbd-4609-84f0-a103cb49cb82.png)
 
 
