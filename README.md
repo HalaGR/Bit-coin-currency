@@ -15,10 +15,10 @@ py bitcoin-app.py
 ```
 ## to Build the image and run it do:
 ### ps: use file Dockerfile for cmd but change it's name to 'Dockerfile'
-'''
+```
 docker build -t bitcoin-docker:latest .
 docker run -d -p 5000:5000 bitcoin-docker
-'''
+```
 
 ### the web app sude look like this:
 ![Screenshot (13)](https://user-images.githubusercontent.com/91056497/137638557-e17d6f8c-23d2-447f-91e3-a605341e5904.png)
