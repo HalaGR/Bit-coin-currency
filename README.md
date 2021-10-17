@@ -14,6 +14,7 @@ and then do
 py bitcoin-app.py
 ```
 ## to Build the image and run it do:
+### ps: use file Dockerfile for cmd but change it's name to 'Dockerfile'
 '''
 docker build -t bitcoin-docker:latest .
 docker run -d -p 5000:5000 bitcoin-docker
